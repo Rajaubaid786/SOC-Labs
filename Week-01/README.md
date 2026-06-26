@@ -41,4 +41,5 @@ This week focused on setting up the foundation of the Security Operations Center
 * Technical Documentation
 * Virtualization
 * Security Lab Deployment
+* Log Collection Fundamentals
 
