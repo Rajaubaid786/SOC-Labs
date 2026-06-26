@@ -13,7 +13,7 @@ This week focused on setting up the foundation of the Security Operations Center
 
 * Set up the SOC lab environment
 * Prepare the required virtual machines
-* Complete the tasks assigned for Week 1
+* Complete the assigned SOC lab activities and document the implementation.
 * Document the complete setup process
 
 ---
