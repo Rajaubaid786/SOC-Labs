@@ -125,3 +125,136 @@ Throughout this internship, I gained practical experience in designing, deployin
 - Technical Documentation
 - Incident Response
 - Technical Documentation
+
+---
+
+# 📚 Weekly Roadmap
+
+Each folder contains the official internship task brief along with my completed technical report documenting the implementation, investigation process, evidence, and key findings.
+
+| Week | Module | Skills Developed |
+|:---:|---------|------------------|
+| ✅ [Week-01](./Week-01) | SOC Environment Setup | Wazuh Deployment, Linux Administration, Virtualization |
+| ✅ [Week-02](./Week-02) | Windows Event Collection & Log Analysis | Sysmon, Event Logs, Detection Rules |
+| ✅ [Week-03](./Week-03) | IDS Deployment & Network Monitoring | Suricata IDS, Network Security Monitoring |
+| ✅ [Week-04](./Week-04) | Threat Intelligence Integration | VirusTotal, IOC Analysis, Threat Intelligence |
+| ✅ [Week-05](./Week-05) | Threat Hunting & Vulnerability Assessment | Threat Hunting, Vulnerability Assessment, MITRE ATT&CK |
+| ✅ [Week-06](./Week-06) | Incident Response & SOC Investigation | Alert Triage, Incident Investigation, Reporting |
+
+---
+
+# 📂 Repository Structure
+
+```text
+SOC-Labs
+│
+├── README.md
+│
+├── Week-01
+│   ├── README.md
+│   ├── SOC_Report_Week_01.pdf
+│   └── SOC_Week1_TaskBrief.docx
+│
+├── Week-02
+├── Week-03
+├── Week-04
+├── Week-05
+└── Week-06
+```
+
+---
+
+# 🏆 Highlights
+
+✔ Built a complete enterprise-style SOC lab from scratch
+
+✔ Deployed and configured Wazuh SIEM
+
+✔ Integrated Windows endpoints for centralized log collection
+
+✔ Configured Sysmon for endpoint visibility
+
+✔ Deployed Suricata IDS for network monitoring
+
+✔ Integrated VirusTotal for threat intelligence enrichment
+
+✔ Created custom detection rules for security monitoring
+
+✔ Performed vulnerability assessments
+
+✔ Conducted threat hunting using real-world techniques
+
+✔ Investigated security alerts and correlated events
+
+✔ Applied the MITRE ATT&CK Framework during investigations
+
+✔ Produced professional technical reports with supporting evidence
+
+---
+
+# 🧩 MITRE ATT&CK Coverage
+
+Throughout the internship, security events and attacker behavior were analyzed and mapped to the MITRE ATT&CK Framework wherever applicable.
+
+Examples include:
+
+- Initial Access
+- Execution
+- Persistence
+- Defense Evasion
+- Discovery
+- Command and Control
+- Credential Access
+- Collection
+
+---
+
+# 📖 Documentation Standards
+
+Every weekly lab follows a consistent documentation format to ensure clarity and reproducibility.
+
+Each report includes:
+
+- 📌 Objectives
+- 🛠️ Lab Setup
+- 🔍 Investigation Process
+- 📷 Screenshots & Evidence
+- 🧠 Technical Analysis
+- 📑 Findings
+- 📈 Skills Demonstrated
+
+---
+
+# 🎯 Learning Philosophy
+
+This repository emphasizes practical implementation over theoretical concepts.
+
+The primary objective was to develop hands-on experience with enterprise security tools, understand Blue Team workflows, and document each investigation using professional reporting practices similar to those followed in real Security Operations Centers.
+
+---
+
+# 👨‍💻 About Me
+
+I'm **Muhammad Ubaid Roman**, a Computer Science student and aspiring SOC Analyst with a strong interest in Blue Team operations, Digital Forensics, Incident Response, and Security Engineering.
+
+This repository represents my practical work completed during the Cyberster SOC Internship and serves as part of my professional cybersecurity portfolio.
+
+---
+
+# ⚖️ Disclaimer
+
+This repository is intended solely for educational and professional portfolio purposes.
+
+All activities were conducted within authorized laboratory environments as part of the Cyberster SOC Internship.
+
+No unauthorized testing was performed against production systems or third-party infrastructure.
+
+---
+
+<div align="center">
+
+### ⭐ If you found this repository useful, consider giving it a Star.
+
+**Thank you for visiting!**
+
+</div>
