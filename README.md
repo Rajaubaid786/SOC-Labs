@@ -53,36 +53,21 @@ Rather than serving as a collection of notes, this repository represents a struc
 
 ---
 
-# 🏗️ SOC Lab Architecture
+## 🏗️ SOC Lab Architecture
 
-```
-
-```
-                    Internet
-                        │
-                        ▼
-                 pfSense Firewall
-                        │
-          ┌─────────────┴─────────────┐
-          │                           │
-          ▼                           ▼
-    Ubuntu Server               Windows Endpoint
-   (Wazuh Manager)                 (Sysmon)
-          │                           │
-          └─────────────┬─────────────┘
-                        ▼
-                 Security Monitoring
-                        │
-          ┌─────────────┴─────────────┐
-          ▼                           ▼
-     Suricata IDS              VirusTotal
-          │                           │
-          └─────────────┬─────────────┘
-                        ▼
-                 Threat Detection
-                        │
-                        ▼
-                Incident Response
+```mermaid
+flowchart TD
+    A[Internet] --> B[pfSense Firewall]
+    B --> C[Ubuntu Server - Wazuh Manager]
+    B --> D[Windows Endpoint]
+    D --> E[Sysmon]
+    C --> F[Security Monitoring]
+    E --> F
+    F --> G[Suricata IDS]
+    F --> H[VirusTotal Integration]
+    G --> I[Threat Detection]
+    H --> I
+    I --> J[Incident Response]
 
 ```
 
@@ -99,7 +84,7 @@ Rather than serving as a collection of notes, this repository represents a struc
 | Endpoint Monitoring | Sysmon |
 | Threat Intelligence | VirusTotal |
 | Framework | MITRE ATT&CK |
-| Methodology | NIST Incident Response |
+| Incident Response | NIST SP 800-61 |
 | Virtualization | Oracle VirtualBox |
 
 ---
@@ -108,27 +93,35 @@ Rather than serving as a collection of notes, this repository represents a struc
 
 | Blue Team Operations | Detection Engineering | Incident Response |
 |----------------------|----------------------|-------------------|
-| Security Monitoring | Detection Rules | Alert Investigation |
+| Security Monitoring | Detection Rule Development | Alert Investigation |
 | Log Analysis | Event Correlation | Incident Triage |
 | Threat Hunting | IOC Identification | Evidence Collection |
-| Vulnerability Assessment | MITRE ATT&CK Mapping | Technical Reporting |
+| Vulnerability Assessment | MITRE ATT&CK Mapping | Technical Documentation |
 
 ---
 
-# 🎓 Learning Outcomes
+# 🎯 Learning Outcomes
 
-Throughout this internship I gained practical experience in:
+Throughout this internship, I gained practical experience in designing, deploying, and operating a Security Operations Center (SOC) lab using enterprise security technologies. Each weekly lab focused on building practical Blue Team skills through hands-on implementation, investigation, and documentation.
 
-- Enterprise SIEM Deployment
-- Windows Log Collection
+### Key Competencies
+
+- SIEM Deployment & Administration
+- Security Monitoring
+- Windows Event Log Analysis
 - Linux Administration
-- Security Event Monitoring
-- Threat Detection
+- Endpoint Visibility with Sysmon
 - Detection Rule Development
+- Threat Detection
+- Alert Triage
+- Threat Hunting
+- IOC Analysis
+- Vulnerability Assessment
 - Network Security Monitoring
 - Threat Intelligence Integration
-- Vulnerability Assessment
-- Threat Hunting
 - MITRE ATT&CK Mapping
+- Incident Response
+- Security Investigation
+- Technical Documentation
 - Incident Response
 - Technical Documentation
