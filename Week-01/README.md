@@ -1,3 +1,11 @@
+<p align="center">
+
+🏠 <a href="../README.md">Home</a> • ➡️ <a href="../Week-02">Next Week</a>
+
+</p>
+
+---
+
 # 🔐 Week 01 – SOC Environment Setup
 ![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-blue)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-Linux-E95420)
